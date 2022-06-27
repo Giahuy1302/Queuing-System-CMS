@@ -1,0 +1,26 @@
+.status_detail{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.dot-comp{
+    background: #34CD26;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.dot-doing{
+    background: #5490EB;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.dot-abs{
+    background: #6C7585;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}

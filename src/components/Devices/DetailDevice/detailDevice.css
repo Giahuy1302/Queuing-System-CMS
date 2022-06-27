@@ -1,0 +1,121 @@
+.detail_bg {
+    position: absolute;
+    width: 1112px;
+    height: 604px;
+    left: 224px;
+    top: 156px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Shadowbox */
+
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+
+.detail_device-id {
+    position: absolute;
+    width: 178px;
+    height: 24px;
+    left: 24px;
+    top: 66px;
+}
+
+.detail_bg span {
+    position: absolute;
+    width: auto;
+    height: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.detail_bg p {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 124px;
+    /* top: 66px; */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #535261;
+}
+
+.detail_device-type {
+    position: absolute;
+    width: 197px;
+    height: 24px;
+    left: 568px;
+    top: 66px;
+}
+
+.detail_device-name {
+    position: absolute;
+    width: 163px;
+    height: 24px;
+    left: 24px;
+    top: 106px;
+}
+
+.detail_device-username {
+    position: absolute;
+    width: 243px;
+    height: 24px;
+    left: 568px;
+    top: 106px;
+}
+
+.detail_device-IP {
+    position: absolute;
+    width: 218px;
+    height: 24px;
+    left: 24px;
+    top: 146px;
+}
+
+.detail_device-pwd {
+    position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 568px;
+    top: 146px;
+}
+
+.detail_device-service {
+    position: absolute;
+    width: 795px;
+    height: 56px;
+    left: 24px;
+    top: 186px;
+}
+
+.detail_device-service p {
+    position: absolute;
+    width: 800px;
+    height: 24px;
+    left: 0px;
+    top: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* display: flex;
+align-items: center; */
+    color: #535261;
+
+}

@@ -1,0 +1,225 @@
+.addrole_content {
+    position: absolute;
+    width: 1192px;
+    height: 534px;
+    left: 224px;
+    top: 172px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+
+.addrole_name-role {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 560px;
+    height: 76px;
+    left: 24px;
+    top: 58px;
+}
+
+.addrole_content span {
+    /* width: 86px; */
+    height: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.addrole_content span p {
+    color: #FF4747;
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.permision {
+    position: absolute;
+    width: 176px;
+    height: 24px;
+    left: 608px;
+    top: 58px;
+}
+
+.addrole_name-role input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 270px 10px 12px;
+    gap: 10px;
+    width: 560px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.addrole_descripion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 560px;
+    height: 192px;
+    left: 24px;
+    top: 146px;
+
+}
+
+.addrole_descripion textarea {
+    position: absolute;
+    top: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 12px 10px 12px;
+    /* padding: 10px 270px 10px 12px; */
+    gap: 10px;
+    width: 560px;
+    height: 160px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    resize: none;
+    outline: none;
+}
+
+.addrole_content .note {
+    position: absolute;
+    width: 232px;
+    height: 24px;
+    left: 24px;
+    top: 350px;
+}
+
+.addrole_permision {
+    position: absolute;
+    width: 560px;
+    height: 420px;
+    left: 608px;
+    top: 90px;
+    background: #FFF2E7;
+    border-radius: 8px;
+}
+
+.addrole_permision .checkbox {
+    position: absolute;
+    top: 58px;
+    left: 24px;
+}
+
+.addrole_permision .checkbox:last-child {
+    top: 258px;
+}
+
+.addrole_permision .checkbox input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1.5px solid #4277FF;
+    border-radius: 4px;
+}
+
+.addrole_permision .checkbox p {
+    /* width: 44px; */
+    height: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #535261;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* position: absolute; */
+    margin-left: 28px;
+}
+
+.addrole_permision .checkbox .check1 {
+    top: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 24px;
+}
+
+.addrole_permision .checkbox .check2 {
+    top: 36px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 24px;
+}
+
+.addrole_permision .checkbox .check3 {
+    top: 72px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 24px;
+}
+
+.addrole_permision .checkbox .check4 {
+    top: 108px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 24px;
+}
+
+.addrole_permision h3 {
+    position: absolute;
+    width: 176px;
+    height: 30px;
+    left: 24px;
+    top: 214px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF7506;
+}

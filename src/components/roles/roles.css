@@ -1,0 +1,28 @@
+.role_content .search{
+    position: absolute;
+width: 240px;
+height: 72px;
+left: 1096px;
+top: 104px;
+}
+.role_content .search input{
+    width: 240px;
+}
+.role_content .table{
+    top: 192px;
+}
+.role_content table th div{
+    margin-left: 17px;
+}
+.role_content table th div p{
+    margin-left: 0;
+}
+.role_content table td div{
+    margin-left: 17px;
+}
+.role_content table td div p{
+    margin-left: 0;
+}
+.role_content .btn-add{
+    top: 192px;
+}

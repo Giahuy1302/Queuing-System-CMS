@@ -1,0 +1,19 @@
+.status-act{
+    display: flex;
+    align-items: center;
+}
+
+.dot-act{
+    background: #35C75A;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.dot-non-act{
+    background: #E73F3F;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}

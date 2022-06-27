@@ -1,0 +1,485 @@
+.oder_name-service {
+    position: absolute;
+    width: 154px;
+    height: 72px;
+    left: 224px;
+    top: 156px;
+}
+
+.order_content .down {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: 10px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF7506;
+}
+
+.order_content .up {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: 10px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF7506;
+}
+
+.order_content .select-drop-down-item {
+    width: 154px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.order_status {
+    position: absolute;
+    width: 154px;
+    height: 72px;
+    left: 402px;
+    top: 156px;
+}
+
+.order_origin {
+    position: absolute;
+    width: 154px;
+    height: 72px;
+    left: 580px;
+    top: 156px;
+}
+
+.order_content span {
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 0px;
+    top: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+}
+
+.order_content input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 24px;
+
+    position: absolute;
+    width: 154px;
+    height: 44px;
+    left: 0px;
+    bottom: 0;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: default;
+}
+
+.order_content .datePicker {
+    left: 758px;
+    top: 156px;
+}
+
+.order_search {
+    position: absolute;
+    width: 240px;
+    height: 72px;
+    left: 1096px;
+    top: 156px;
+}
+
+.order_search input {
+    width: 240px;
+}
+
+.order_content table th p {
+    margin-left: 17px;
+}
+
+.order_content table div {
+    margin-left: 17px;
+}
+
+.new-number_content {
+    position: absolute;
+    width: 1192px;
+    height: 604px;
+    left: 224px;
+    top: 164px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+
+.new-number_content h4 {
+    position: absolute;
+    width: 190px;
+    height: 48px;
+    left: 501px;
+    top: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FF7506;
+}
+
+.new-number_content span {
+    position: absolute;
+    width: 265px;
+    height: 30px;
+    left: 464px;
+    top: 92px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #535261;
+}
+
+.new-number_content input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 24px;
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.new-number_content .newOrder_input {
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 396px;
+    top: 134px;
+    display: flex;
+    align-items: center;
+}
+
+.newOrder_input .down {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #FF7506;
+}
+
+.newOrder_input .up {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #FF7506;
+    display: none;
+}
+
+.new-number_content .select-drop-down {
+    width: 400px;
+    position: absolute;
+    top: 180px;
+    left: 396px;
+    display: none;
+}
+
+.new-number_content .cancel-add-btn {
+    position: absolute;
+    width: 262px;
+    height: 48px;
+    left: 465px;
+    top: 258px;
+}
+
+.new-number_content .cancel-add-btn .btn-cancel {
+    width: 115px;
+}
+
+.new-number_content .cancel-add-btn .btn-add {
+    width: 115px;
+    left: 147px;
+}
+
+.order_detail {
+    position: absolute;
+    width: 1112px;
+    height: 604px;
+    left: 224px;
+    top: 164px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Shadowbox */
+
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+
+.order_detail-info {
+    position: absolute;
+    width: 845px;
+    height: 184px;
+    left: 24px;
+    top: 66px;
+}
+
+.order_detail-info span {
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #282739;
+}
+
+.order_detail-info i {
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 126px;
+    top: 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #535261;
+}
+
+.order_name-user {
+    position: absolute;
+    width: 253px;
+    height: 24px;
+    left: 24px;
+    top: 66px;
+}
+
+.order_name-service {
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 24px;
+    top: 106px;
+
+}
+
+.order_serial-number {
+    position: absolute;
+    width: 194px;
+    height: 24px;
+    left: 24px;
+    top: 146px;
+}
+
+.order_time {
+    position: absolute;
+    width: 269px;
+    height: 24px;
+    left: 24px;
+    top: 186px;
+}
+
+.order_exp {
+    position: absolute;
+    width: 269px;
+    height: 24px;
+    left: 24px;
+    top: 226px;
+}
+
+.order_detail-info .order_origin {
+    position: absolute;
+    width: 162px;
+    height: 24px;
+    left: 568px;
+    top: 66px;
+}
+
+.order_detail-info .order_status {
+    position: absolute;
+    width: 204px;
+    height: 24px;
+    left: 568px;
+    top: 106px;
+}
+.order_status input{
+    pointer-events: none;
+}
+.order_origin input{
+    pointer-events: none;
+}
+.oder_name-service input{
+    pointer-events: none;
+}
+
+.order_phone-number {
+    position: absolute;
+    width: 219px;
+    height: 24px;
+    left: 568px;
+    top: 146px;
+}
+
+.order_email {
+    position: absolute;
+    width: 301px;
+    height: 24px;
+    left: 568px;
+    top: 186px;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 1440px;
+    height: 810px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+
+}
+
+.popup-content {
+    width: 469px;
+    height: 385px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin: auto;
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+.popup-content-time {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 469px;
+    height: 90px;
+    background: #FF9138;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.popup-content-time p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding-left: 67px;
+}
+
+.popup-content-info {
+    display: flex;
+
+    flex-direction: column;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    width: 469px;
+    height: 275px;
+}
+
+.popup-content-info-sttdc {
+
+
+    display: flex;
+    margin: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #535261;
+    margin-top: 48px;
+}
+
+.popup-content-info-num {
+    left: 117px;
+    top: 120px;
+    display: flex;
+    margin: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FF7506;
+}
+
+.popup-content-info-dvsd {
+    display: flex;
+    margin: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #282739;
+    margin-bottom: 44px;
+}
+
+.close-popup {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    margin-left: 429px;
+}
+
+.div-center{
+    display: flex;
+}
+
+.icon-close-popup {
+    cursor: pointer;
+    font-size: 24px;
+    color: #FF9138;
+}

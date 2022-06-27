@@ -1,0 +1,47 @@
+.button-nknd {
+    background: #FF7506;
+    color: #FFFF;
+    border-bottom-right-radius: 8px;
+    pointer-events: none !important;
+}
+
+.button-qltk {
+    background: #FF7506;
+    color: #FFFF;
+    pointer-events: none !important;
+}
+
+.button-cd {
+    background: #FF7506 !important;
+    color: #FFFF !important;
+}
+.button-cd:hover{
+    background: #FF7506 ;
+    color: #FFFF !important;
+    cursor: default;
+}
+
+.button-qlvt {
+    background: #FF7506;
+    color: #FFFF;
+    border-top-right-radius: 8px;
+    pointer-events: none !important;
+}
+
+.button-active {
+    background: #FF7506;
+    pointer-events: none !important;
+}
+
+
+.button-active .icon {
+    color: #FFFF;
+}
+
+.button-active .icon1 {
+    color: #FFFF;
+}
+
+.button-active p {
+    color: #FFFF;
+}

@@ -1,0 +1,271 @@
+.add-service {
+    position: absolute;
+    width: 1178px;
+    height: 534px;
+    left: 224px;
+    top: 172px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+
+
+.add-service p {
+    /* width: 150px; */
+    height: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.add-service input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 12px;
+    gap: 10px;
+    width: 528px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.service_ID {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 553px;
+    height: 76px;
+    left: 24px;
+    top: 58px;
+}
+
+.service_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 553px;
+    height: 76px;
+    left: 24px;
+    top: 146px;
+}
+
+.service_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 553px;
+    height: 164px;
+    left: 601px;
+    top: 58px;
+}
+
+.service_description textarea {
+    position: absolute;
+    top: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 12px 10px 12px;
+    /* padding: 10px 270px 10px 12px; */
+    gap: 10px;
+    width: 553px;
+    height: 132px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    resize: none;
+    outline: none;
+}
+
+h3 {
+    position: absolute;
+    /* width: 136px; */
+    height: 30px;
+    left: 24px;
+    top: 238px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF7506;
+}
+
+.check1 {
+    position: absolute;
+    width: 337px;
+    height: 44px;
+    left: 24px;
+    top: 280px;
+}
+
+.check2 {
+    position: absolute;
+    width: 224px;
+    height: 44px;
+    left: 24px;
+    top: 336px;
+}
+
+
+
+.check3 {
+    position: absolute;
+    width: 224px;
+    height: 44px;
+    left: 24px;
+    top: 392px;
+}
+
+.add-service .pre-sur-fix_input{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 61px;
+    height: 44px;
+    left: 163px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+}
+
+.check4 {
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 24px;
+    top: 448px;
+}
+
+.checkbox-title input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 12px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #4277FF;
+    border-radius: 4px;
+}
+
+.checkbox-title p {
+    width: 120px;
+    height: 24px;
+    position: absolute;
+    left: 28px;
+    top: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.input_number {
+    position: absolute;
+    width: 174px;
+    height: 44px;
+    left: 163px;
+    top: 0px;
+}
+
+.input_number .num-start {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 61px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+}
+
+.input_number .num-end {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 61px;
+    height: 44px;
+    left: 113px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+}
+
+.input_number p {
+
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    left: 73px;
+    top: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #282739;
+}

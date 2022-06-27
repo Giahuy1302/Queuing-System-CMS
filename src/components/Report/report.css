@@ -1,0 +1,38 @@
+.report_content .datePicker{
+    position: absolute;
+width: 320px;
+height: 72px;
+left: 224px;
+top: 104px;
+}
+.report_content .table{
+    height: 539px;
+    top: 192px;
+}
+.report_content .table th div{
+    display: flex; 
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: space-between;
+}
+.report_content .table th p{
+    margin-left: 0;
+}
+.report_content .table td div{
+    margin-left: 16px;
+}
+.report_content .table td p{
+    margin-left: 0px;
+}
+.sort-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    margin-right: 0;
+}
+.report_content .btn-add{
+    top: 192px;
+}

@@ -1,0 +1,25 @@
+.status_order{
+    display: flex;
+    align-items: center;
+}
+.dot-waiting{
+    background: #4277FF;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.dot-using{
+    background: #7E7D88;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.dot-skiped{
+    background: #E73F3F;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+}

@@ -1,0 +1,163 @@
+.service_status_active {
+    position: absolute;
+    width: 300px;
+    height: 72px;
+    left: 224px;
+    top: 156px;
+}
+
+.service_status_active p {
+    position: absolute;
+    width: 152px;
+    height: 24px;
+    /* left: 224.97px; */
+    /* top: 156px; */
+
+    /* 16/16 Semi */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-500 */
+
+    color: #282739;
+
+}
+input{
+    font-family: 'Nunito';
+}
+.service_status_active input {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 24px;
+
+    position: absolute;
+    width: 300px;
+    height: 44px;
+    left: 0px;
+    top: 28px;
+    font-family: 'Nunito';
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    cursor: default;
+    pointer-events: none;
+}
+
+.service_status_active .down {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: 10px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF7506;
+}
+.service_status_active .up {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: 10px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF7506;
+}
+
+.datePicker {
+    position: absolute;
+    width: 320px;
+    height: 72px;
+    left: 548px;
+    top: 156px;
+}
+
+.datePicker p {
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    /* left: 548px; */
+    /* top: 156px; */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+}
+
+.pick {
+    position: absolute;
+    width: 320px;
+    height: 44px;
+    left: 0px;
+    top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pick input:first-child {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+    position: absolute;
+    left: 0%;
+    right: 53.12%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+}
+
+.pick input:last-child {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+    position: absolute;
+    left: 53.12%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+}
+/* .icon_next {
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    left: 154px;
+    top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+input[type='date']::-webkit-calendar-picker-indicator {
+    
+    filter: invert(0.5) sepia(20) saturate(15) hue-rotate(4deg);
+}
